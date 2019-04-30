@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Fredrik Johansson</Authors>
+    <Company>Fredrik Johansson Robotics AB</Company>
+    <Product>Fredrik's Pyramid of Glasses</Product>
+    <Copyright>Copyright (c) by Fredrik Johansson 2019</Copyright>
+    <PackageProjectUrl>https://johanssonrobotics.com</PackageProjectUrl>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>Fredrik Johansson Robotics AB.snk</AssemblyOriginatorKeyFile>
+    <StartupObject>FredriksPyramidOfGlasses.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+</Project>
